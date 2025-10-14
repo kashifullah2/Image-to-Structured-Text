@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pillow
+pandas
+python-dotenv
+easyocr
+langchain_google_genai

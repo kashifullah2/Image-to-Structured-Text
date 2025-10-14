@@ -1,7 +1,6 @@
 # 📸 Smart Image Text Extractor
 
-A FastAPI app to upload images, extract text via OCR (Tesseract/EasyOCR), and structure it in JSON format. Supports multiple images, preview, and CSV export.
-
+It users upload one or multiple invoice or receipt images, specify the fields they want to extract (e.g., amount, total amount, sent by, company name, date), and uses OCR (Tesseract or EasyOCR) to extract those fields automatically. The extracted information is returned in structured JSON format,
 ## ⚡ Features
 
 - Upload **single or multiple images**  
